@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <section>
+        <form id="cadastrado.php" action="cadastrado.html" method="POST" class="validador">
+            <div class="cad">
+                <h3>CRIE SUA CONTA</h3>
+            </div> <!-- cad -->
+
+            <div class="cad">
+                <p>Nome</p>
+                <i class="fa fa-user fa-fw"></i>
+                <input type="text" name="nome" placeholder="Seu nome" data-rules="nome" />
+            </div> <!-- cad -->
+
+            <div class="cad">
+                <p>Email</p>
+                <i class="fa fa-envelope fa-fw"></i>
+                <input type="email" name="email" placeholder="Seu email" data-rules="email" />
+            </div> <!-- cad -->
+
+            <div class="cad">
+                <p>Senha</p>
+                <i class="fa fa-lock fa-fw"></i>
+                <input type="password" name="senha" placeholder="Sua senha" data-rules="senha" />
+            </div> <!-- cad -->
+
+            <div class="cad">
+                <input type="submit" value="Criar Conta" />
+            </div> <!-- cad -->
+        </form> <!-- validador -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

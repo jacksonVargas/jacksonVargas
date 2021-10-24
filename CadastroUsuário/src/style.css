@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(3, 0, 12);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.validador {
+    width: 100%;
+    max-width: 450px;
+    padding: 0 5px;
+}
+
+.cad {
+    margin-bottom: 20px;
+}
+
+.cad h3 {
+    color: #888;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #888;
+}
+
+.cad p {
+    color: #888;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+.cad i {
+    position: absolute;
+    color: #888;
+    font-size: 1.2rem;
+    line-height: 53px;
+    margin: 0 14px;
+}
+
+.cad input {
+    width: 100%;
+    padding: 13px 45px;
+    border-radius: 35px;
+    border: 1px solid #888;
+    outline: none;
+    color: #888;
+    background: none;
+    font-size: 1rem;
+}
+
+.cad input:focus {
+    border: 1px solid royalblue;
+}
+
+.cad input[type='submit'] {
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+.cad input[type='submit']:hover {
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+    color: black;
+}
+
+.error {
+    color: red;
+    margin: 3px 18px;
+    letter-spacing: 1px;
+}
