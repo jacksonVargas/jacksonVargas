@@ -1,6 +1,9 @@
 ### Olá, meu nome é Jackson Vargas 👨‍💻
 ![Jackson GitHub stats](https://github-readme-stats.vercel.app/api?username=jacksonvargas&show_icons=true&theme=tokyonight)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+
+
 ## Tecnologias que eu uso nos meus projetos
 
 <div>
